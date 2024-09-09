@@ -1,0 +1,148 @@
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HomePage.css */
+
+.home-page {
+  font-family: Arial, sans-serif;
+  background-color: #6aa1d9;
+  color: #333;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(135deg, #4f93ce, #28527a);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  z-index: -1;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.header h1:hover {
+  transform: scale(1.05);
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #191609;
+}
+
+.popular-books {
+  background-color: #ffffff56;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popular-books h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #e3f2fd; /* Light background for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item {
+  background: linear-gradient(145deg, #3fcde649, #d4d4d4);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 6px 6px 12px #bcbcbc, -6px -6px 12px #110707;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 250px;
+  height: 350px;
+}
+
+.book-item:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff;
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.book-item:hover .book-image {
+  transform: scale(1.05);
+}
+
+.book-title {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #0a0404;
+  font-weight: bold;
+}
+
+.book-author {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #555;
+  font-style: italic;
+}
+
+.view-details {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #8894a0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.view-details:hover {
+  background-color: #c5d6e8;
+  transform: translateY(-3px);
+}

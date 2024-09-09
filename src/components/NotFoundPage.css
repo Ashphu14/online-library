@@ -1,0 +1,28 @@
+.not-found {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+
+.back-link:hover {
+  background-color: #007bff;
+  color: white;
+}

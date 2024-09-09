@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A novel about the serious issues of rape and racial inequality.",
+    "rating": "4.8",
+    "image":  "/assets/book1.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 2,
+    "title": "HarryPotter Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "description": "The first book in the Harry Potter series.",
+    "rating": "4.9",
+    "image": "/assets/book2.jpg",
+    "category": "Fantasy"
+  },
+  {
+    "id": 3,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A novel about the American dream and the Jazz Age.",
+    "rating": "4.5",
+    "image": "/assets/book3.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 4,
+    "title": "Gone with the Wind",
+    "author": "Margaret Mitchell",
+    "description": "A historical novel set during the American Civil War.",
+    "rating": "4.6",
+    "image": "/assets/book4.jpg",
+    "category": "Historical Fiction"
+  },
+  {
+    "id": 5,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "description": "A novel about teenage angst and alienation.",
+    "rating": "4.3",
+    "image": "/assets/book5.jpg",
+    "category": "Fiction"
+  },
+  {
+    "id": 6,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "description": "A novel about a dystopian future controlled by technology and conditioning.",
+    "rating": "4.4",
+    "image": "/assets/book6.jpg",
+    "category": "Sci-Fi"
+  },
+  {
+    "id": 7,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "A novel about the manners and matrimonial machinations among the British middle class.",
+    "rating": "4.6",
+    "image": "/assets/book7.jpg",
+    "category": "Romance"
+  },
+  {
+    "id": 8,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "description": "A historical novel that chronicles the French invasion of Russia.",
+    "rating": "4.7",
+    "image": "/assets/book8.jpg",
+    "category": "Historical"
+  },
+  {
+    "id": 9,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "A fantasy novel about the adventures of Bilbo Baggins.",
+    "rating": "4.8",
+    "image": "/assets/book9.jpg",
+    "category": "Fantasy"
+  },
+  {
+    "id": 10,
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "description": "A novel about the absurdities of war and bureaucracy.",
+    "rating": "4.3",
+    "image": "/assets/book10.jpg",
+    "category": "Satire"
+  },
+  {
+    "id": 11,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "description": "An epic poem about the adventures of Odysseus as he attempts to return home.",
+    "rating": "4.5",
+    "image": "/assets/book11.jpg",
+    "category": "Classic"
+  },
+  {
+    "id": 12,
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "description": "A mystery thriller that explores the hidden secrets of the Catholic Church.",
+    "rating": "4.1",
+    "image": "/assets/book12.jpg",
+    "category": "Thriller"
+  },
+  {
+    "id": 13,
+    "title": "The Shining",
+    "author": "Stephen King",
+    "description": "A horror novel about a family's stay at a haunted hotel.",
+    "rating": "4.7",
+    "image": "/assets/book13.jpg",
+    "category": "Horror"
+  },
+  {
+    "id": 14,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "description": "A science fiction novel about a desert planet and its politics.",
+    "rating": "4.8",
+    "image": "/assets/book14.jpg",
+    "category": "Science Fiction"
+  },
+  {
+    "id": 15,
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "description": "A novel about the lives and struggles of the March sisters.",
+    "rating": "4.7",
+    "image": "/assets/book15.jpg",
+    "category": "Classic"
+  },
+  {
+    "id": 16,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "description": "A dystopian novel about a technologically advanced society.",
+    "rating": "4.5",
+    "image": "/assets/book16.jpg",
+    "category": "Science Fiction"
+  },
+  {
+    "id": 17,
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "description": "A satirical novel about the absurdities of war.",
+    "rating": "4.3",
+    "image": "/assets/book5.jpg",
+    "category": "Satire"
+  },
+  {
+    "id": 18,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A satirical novel  absurdities of war.",
+    "rating": "4.3",
+    "image": "/assets/book18.jpg",
+    "category": "Satire"
+  }
+  
+   
+]
